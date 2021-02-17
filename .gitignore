@@ -1,0 +1,4 @@
+__pycache__/
+http2amcp.build/
+http2amcp.dist/
+settings.json
