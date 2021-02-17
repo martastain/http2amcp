@@ -21,7 +21,7 @@ class App(Vial):
             return self.response.text(
                 r.data, 
                 status=r.response,
-                custom_headers={
+                headers={
                     "Access-Control-Allow-Origin" : "*"
                 }
             )
